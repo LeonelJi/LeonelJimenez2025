@@ -59,12 +59,5 @@ public class Calculadora {
         }
     }
     
-    public void rehacer(){
-        if (!pilaRehacer.isEmpty()){
-            pilaDeshacer.push(contenido);
-            contenido = pilaRehacer.pop();
-            System.out.println("Rehacer: " + contenido);
-        } else {
-            System.out.println("No hay acciones para rehacer");
-        }
+    
     }
