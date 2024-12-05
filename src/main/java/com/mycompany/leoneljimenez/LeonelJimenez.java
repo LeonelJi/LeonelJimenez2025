@@ -4,6 +4,8 @@
 
 package com.mycompany.leoneljimenez;
 
+import pila.Calculadora;
+
 /**
  *
  * @author SO-LAB1-PC12
@@ -11,7 +13,10 @@ package com.mycompany.leoneljimenez;
 public class LeonelJimenez {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+      Calculadora calcu= new Calculadora();
+      calcu.setDato1(5);
+      calcu.setDato2(6);
+      
     }
 }
 
